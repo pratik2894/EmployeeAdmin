@@ -1,0 +1,252 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  text-align: center;
+}
+.empdashboard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:60vh;
+  flex-wrap: wrap;
+}
+.empd1{
+  padding: 20px;
+  background-color: #B4E380;
+  margin: 20px;
+  height: 50%;
+  text-align: center;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.empd2{
+  padding: 20px;
+  background-color: #88D66C;
+  margin: 20px;
+  height: 50%;
+  text-align: center;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.empd3{
+  padding: 20px;
+  background-color: #FB773C;
+  height: 50%;
+  margin: 20px;
+  text-align: center;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.empd4{
+  padding: 20px;
+  background-color: aqua;
+  margin: 20px;
+  text-align: center;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 30px;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+.search{
+  display: flex;
+  justify-content: space-around;
+  padding:10px
+}
+label {
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+select {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+}
+
+.pagination {
+  display: inline-block;
+  justify-content: center;
+  margin: 20px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+.btnsearch{
+  border: none;
+  border-radius: 3px;
+  width: 10%;
+  height: 25%;
+  color: white;
+}
+
+.login-parent{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+   
+}
+.login-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+ 
+  
+}
+
+.login-body input{
+  padding: 10px;
+  width: 100%;
+  margin: 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+.login-body button{
+  
+  padding: 10px;
+  width:50%;
+  background-color: #478CCF;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+}
+
+
+.main-body {
+  padding: 15px;
+}
+.card {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1rem;
+}
+
+.gutters-sm {
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+.gutters-sm>.col, .gutters-sm>[className*=col-] {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.mb-3, .my-3 {
+  margin-bottom: 1rem!important;
+}
+
+.bg-gray-300 {
+  background-color: #e2e8f0;
+}
+.h-100 {
+  height: 100%!important;
+}
+.shadow-none {
+  box-shadow: none!important;
+}
+
+.login-parent{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+   
+}
+.login-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+ 
+  
+}
+.empd2{
+  padding: 20px;
+  background-color: #88D66C;
+  margin: 20px;
+  height: 50%;
+  text-align: center;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
